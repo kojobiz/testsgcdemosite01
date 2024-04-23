@@ -44,93 +44,100 @@
 
     <!-- main -->
     <main>
-        <div class="contact_header brandcolor_bg">
-            <div>
-                <h1 class="title_03">お申し込みフォーム</h1>
-                <hr class="contact_header_line">
-                </div>
-        </div>
-
-        <!-- パンくずリスト -->
-        <nav class="flex mt-2 ml-4" aria-label="Breadcrumb">
-            <ol class="inline-flex items-center space-x-1 md:space-x-2 rtl:space-x-reverse">
-            <li class="inline-flex items-center">
-                <a href="./index.html" class="inline-flex items-center text-sm hover:text-blue-600 dark:hover:text-white">
-                Top
-                </a>
-            </li>
-            <li aria-current="page">
-                <div class="flex items-center">
-                >
-                <span class="ms-1 text-sm">お申し込みフォーム</span>
-                </div>
-            </li>
-            </ol>
-        </nav>
-        <br>
-
-
-        <!-- タイトルテキスト -->
-        <p class="text_20_1.2 text-center">資料請求、無料トライアルは以下の電話番号<br>
-            または、メールフォームよりお気軽にお申し込みください。</p>
-        <br>
-
-
-        <!-- 電話でのお申し込み -->
-        <div class="callpattern">
-            <div class="callpattern_inner brandcolor_bg">
-                <p>電話でのお申し込み</p>
-            </div>
-            <div class="callinformation">
-                <div class="flex flex-row gap-2">
-                    <img src="./image/ico_reason_call.png" alt="">
-                    <p class="call_number callinformation_text_color">03-3342-9620</p>
-                </div>
+        <section>
+            <div class="contact_header brandcolor_bg">
                 <div>
-                    <p class="call_time callinformation_text_color">受付時間  10:00~18:00【土日祝定休日】</p>
+                    <h1 class="title_03">お申し込みフォーム</h1>
+                    <hr class="contact_header_line">
                 </div>
             </div>
-        <div>
-ご用件（必須）
 
-[mwform_radio name="category" children="資料請求を希望,無料トライアルを希望,その他" value="資料請求を希望"]
+            <!-- パンくずリスト -->
+            <nav class="flex mt-2 ml-4" aria-label="Breadcrumb">
+                <ol class="inline-flex items-center space-x-1 md:space-x-2 rtl:space-x-reverse">
+                <li class="inline-flex items-center">
+                    <a href="./index.html" class="inline-flex items-center text-sm hover:text-blue-600 dark:hover:text-white">
+                    Top
+                    </a>
+                </li>
+                <li aria-current="page">
+                    <div class="flex items-center">
+                    >
+                    <span class="ms-1 text-sm">お申し込みフォーム</span>
+                    </div>
+                </li>
+                </ol>
+            </nav>
+            
 
-<hr />
+            <!-- タイトルテキスト -->
+            <p class="text_20_1.2 text-center">資料請求、無料トライアルは以下の電話番号<br>
+                または、メールフォームよりお気軽にお申し込みください。</p>
+            <br>
 
-会社名（必須）
 
-[mwform_text name="company" size="60" placeholder="例：株式会社システムサポート" conv_half_alphanumeric="true"]
+            <!-- 電話でのお申し込み -->
+            <div class="callpattern">
+                <div class="callpattern_inner brandcolor_bg">
+                    <p>電話でのお申し込み</p>
+                </div>
+                <div class="callinformation">
+                    <div class="flex flex-row gap-2">
+                        <img src="./image/ico_reason_call.png" alt="">
+                        <p class="call_number callinformation_text_color">03-3342-9620</p>
+                    </div>
+                    <div>
+                        <p class="call_time callinformation_text_color">受付時間  10:00~18:00【土日祝定休日】</p>
+                    </div>
+                </div>
+            </div>
+            <br>
 
-<hr />
 
-氏名（必須）
 
-[mwform_text name="namewho" size="60" placeholder="例：シス田サポ郎" conv_half_alphanumeric="true"]
+        </section>
 
-<hr />
+        <section>         
+        ご用件（必須）
 
-メールアドレス（必須）
+        [mwform_radio name="category" children="資料請求を希望,無料トライアルを希望,その他" value="資料請求を希望"]
 
-[mwform_email name="email" size="60" placeholder="例：xxx@xxx.com"]
+        <hr />
 
-<hr />
+        会社名（必須）
 
-電話番号（必須）
+        [mwform_text name="company" size="60" placeholder="例：株式会社システムサポート" conv_half_alphanumeric="true"]
 
-[mwform_tel name="tel"　placeholder="例：06-xxxx-xxxx"]
+        <hr />
 
-<hr />
+        氏名（必須）
 
-お申し込み内容
+        [mwform_text name="namewho" size="60" placeholder="例：シス田サポ郎" conv_half_alphanumeric="true"]
 
-[mwform_textarea name="content" cols="50" rows="5" placeholder="お聞きしたい事などがあればご記入ください"]
+        <hr />
 
-<hr />
+        メールアドレス（必須）
 
-[mwform_submitButton name="mwform_submitButton-645" confirm_value="確認画面へ" submit_value="送信する"]
+        [mwform_email name="email" size="60" placeholder="例：xxx@xxx.com"]
 
-</div>
-</main>
+        <hr />
+
+        電話番号（必須）
+
+        [mwform_tel name="tel"　placeholder="例：06-xxxx-xxxx"]
+
+        <hr />
+
+        お申し込み内容
+
+        [mwform_textarea name="content" cols="50" rows="5" placeholder="お聞きしたい事などがあればご記入ください"]
+
+        <hr />
+
+        [mwform_submitButton name="mwform_submitButton-645" confirm_value="確認画面へ" submit_value="送信する"]
+
+        </section>   
+    </main>
 
 
 
