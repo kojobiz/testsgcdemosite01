@@ -39,12 +39,10 @@ body {
     background-position: right bottom;
     overflow: hidden;    
 }
+/* titleタグ */
+/* title_03　about50pxFont */
 .title_03 {
     font-size: 2.6rem;
     font-weight:500;
 }
-.contact_header .title_03 {
-    color: white;
-    padding-top: 2.3rem;
-    text-align: center;
-}
+
