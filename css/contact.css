@@ -1,9 +1,10 @@
 @charset "UTF-8";
-
+.brandcolor_bg {
+    background-color:#2fc996;
+}
 .contact_header {
     width:100%;
     height:152px;
-    background-color: #2fc996;
 }
 .contact_header .title_03 {
     color: white;
@@ -17,6 +18,31 @@
     margin-left:auto;
     margin-right:auto;
 }
+.text_20_1.2 { 
+    font-size: 20px;
+    lign-height:1.2rem;
+}
+.callpattern {
+    max-width: 600px;
+    margin-left:auto;
+    margin-right:auto;
+    height: 120px;
+    background-color: #f2f2f2;
+    border-radius: 20px;
+}
+.callpattern_inner {
+    color:white;
+    width:80%;
+    height:40px;
+    border-radius:23px;
+    text-align: center;
+    line-height: 40px;
+    letter-spacing:0.5rem;
+    margin:0px auto;
+}
+
+
+
 @media (max-width: 767px) {
     .title_03 {
         font-size:20px;
