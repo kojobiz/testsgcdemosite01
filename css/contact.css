@@ -1,5 +1,11 @@
 @charset "UTF-8";
-.contactHeader_line {
+
+.contact_header {
+    width:100%;
+    height:182px;
+    background-color: #2fc996;
+}
+.contact_header_line {
     width: 150px;
     border: 1px solid white;
     margin-left:auto;
