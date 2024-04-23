@@ -1,4 +1,5 @@
 @charset "UTF-8";
+
 .brandcolor_bg {
     background-color:#2fc996;
 }
@@ -58,7 +59,10 @@
 }
 .call_time {
     font-size:14px;
+}
 
+section .contactform {
+    width:57%;
 
 }
 

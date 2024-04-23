@@ -6,6 +6,7 @@ body {
     font-optical-sizing: auto;
     font-weight: auto;
     font-style: normal;
+    overflow:hidden;
 }
 
 .noto-sans-jp-thin {
