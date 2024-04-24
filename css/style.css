@@ -1,6 +1,9 @@
 /* style.css */
 @charset "UTF-8";
 
+/*================================= 
+  共通
+================================= */
 body {
     font-family: "Noto Sans JP", sans-serif;
     font-optical-sizing: auto;
@@ -31,6 +34,11 @@ body {
 .nav-bottom-button {
     display: none; /* 最初は非表示にする */
 }
+
+
+/*================================= 
+  hero
+================================= */
 
 .sectionHero {
     background-image: url('../image/bgimg_hero_pc.jpg');
