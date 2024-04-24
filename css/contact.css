@@ -79,33 +79,43 @@
     font-size:14px;
 }
 
+
+/* コンタクトフォーム */
 section.contactform {
     width:900px;
     margin-left:auto;
     margin-right:auto;
 }
-.form-item {
-    border-top: dashed #d1d1d1 1px;
-    display:grid;
-    grid-template-columns: 0.7fr 0.3fr 2fr;
+.form_item2 {
+    width:900px;
     height:80px;
+    border-top: dashed #d1d1d1 1px;
+    display:flex;
+    flex-direction:row;
 }
-.label_required {
-    display: inline-block;
-    color:white;
-    text-align:center;
-    line-height:30px;
-    padding-top:25px;
-    padding-bottom:25px;
-    padding-left:15px;
-    padding-right:15px;
-    font-weight:300;
-    font-size:16px;
+
+.form_item2 h2 {
+    width:45%;
+    
+}
+.form_item2 h2:after {
+    content:"必須";
     letter-spacing:3px;
+    padding:3px 10px;
+    background-color:#2fc996;
+    color: white;
+    border-radius:4px;
+    font-weight:300;
+    position:absolute;
+    left:30%
 }
-p.rounded {
-    border-radius: 4px;
+.form_item2 p {
+    padding-left:50px;
 }
+
+
+
+
 
 
 @media (max-width: 767px) {
