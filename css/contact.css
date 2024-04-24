@@ -92,6 +92,7 @@ section.contactform {
     border-top: dashed #d1d1d1 1px;
     display:flex;
     flex-direction:row;
+    align-items:center;
 }
 
 .form_item2 h2 {
