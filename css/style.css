@@ -132,8 +132,8 @@ body {
   height: 2px;
   background: white;
   position: absolute;
-  top: 210px;
   left: calc(50% - (10% / 2));
+  margin-top: 10px;
 }
 .list-title {
 }
