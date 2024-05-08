@@ -1,4 +1,6 @@
 # testsgcdemosite01
+
 ・tailwindcss
 ・plugin
-・その他css,js,sass導入？# php01testsgcdemosite
+・その他 css,js,sass 導入？# php01testsgcdemosite
+その他変更
