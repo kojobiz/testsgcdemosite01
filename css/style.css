@@ -44,6 +44,9 @@ body {
 .text-mostgreen {
   color: #183834;
 }
+.text-moregreen {
+  color: #30554c;
+}
 .text-thinblack {
   color: #191919;
 }
@@ -110,3 +113,54 @@ body {
   height: auto;
   background-color: white;
 }
+
+/*================================= 
+  reason
+================================= */
+.sectionReason {
+  width: 100%;
+  background-image: url("../image/bgimg_reason_01.jpg");
+  height: 1300px;
+  background-size: cover;
+  background-position: center center;
+  overflow: hidden;
+}
+.sectionReasonTitle::after {
+  content: "";
+  display: block;
+  width: 10%;
+  height: 2px;
+  background: white;
+  position: absolute;
+  top: 210px;
+  left: calc(50% - (10% / 2));
+}
+.list-title {
+}
+.reason031 {
+  width: calc(1144px * 0.9);
+  background-image: url("../image/bgimg_reason_031.png");
+  height: calc(221px * 0.9);
+  background-size: cover;
+  background-position: center center;
+  overflow: hidden;
+}
+.reason032 {
+  width: calc(1144px * 0.9);
+  background-image: url("../image/bgimg_reason_032.png");
+  height: calc(221px * 0.9);
+  background-size: cover;
+  background-position: center center;
+  overflow: hidden;
+}
+.reason033 {
+  width: calc(1144px * 0.9);
+  background-image: url("../image/bgimg_reason_033.png");
+  height: calc(221px * 0.9);
+  background-size: cover;
+  background-position: center center;
+  overflow: hidden;
+}
+/*================================= 
+  fivefunction
+================================= */
