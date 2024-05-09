@@ -203,17 +203,18 @@ body {
 .container-tight ul li {
   color:#191919;
   font-size:20px;
+  text-indent:-20px!important;
+  padding-left:20px!important;
 }
 .container-wide {
   background-color: #ffffff;
-
 }
 .fivefunction-container {
   width:100%;
   background-color: #232323;
   display: grid;
-  grid-template-columns: 40% 55%;
-  gap:5%;
+  grid-template-columns: 35% 55%;
+  gap:10%;
   min-height:400px;
   padding-bottom:60px;
 }
