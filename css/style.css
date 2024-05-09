@@ -197,6 +197,8 @@ body {
 }
 .container-tight p {
   color:#191919;
+  padding-top:20px;
+  padding-bottom:20px;
 }
 .container-tight ul li {
   color:#191919;
@@ -233,7 +235,6 @@ body {
 .title-sup {
   top:-0.4em;
   font-size:36px;
-
 }
 
 /*================================= 
