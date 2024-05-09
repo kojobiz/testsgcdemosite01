@@ -205,7 +205,7 @@ body {
 }
 .container-tight ul li {
   color:#191919;
-  font-size:20px;
+  font-size:18px;
   text-indent:-20px!important;
   padding-left:20px!important;
 }
@@ -219,7 +219,7 @@ body {
   grid-template-columns: 35% 55%;
   gap:10%;
   min-height:400px;
-  padding-bottom:60px;
+  padding-bottom:180px;
 }
 .fivefunction-containers {
   max-width:1200px;
