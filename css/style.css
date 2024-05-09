@@ -172,14 +172,31 @@ body {
   fivefunction
 ================================= */
 .sectionFivefunction {
-  width: 100%;
+  max-width: 100%;
   height: auto;
   background-color: white;
+  display: flex;
+  flex-direction:column;
+  align-items:center;
 }
 
 .container-tight {
   background-color: #f2f2f2;
-  
+}
+.container-tight h1 {
+  color:#2fc996;
+  font-size:38px;
+}
+.container-tight h2 {
+  color:#30554c;
+  font-size:40px;
+}
+.container-tight p {
+  color:#191919;
+}
+.container-tight ul li {
+  color:#191919;
+  font-size:20px;
 }
 .container-wide {
   background-color: #ffffff;
@@ -189,10 +206,13 @@ body {
   width:100%;
   background-color: #232323;
   display: grid;
-  grid-template-columns: 1fr 2fr;
-  gap:20px;
+  grid-template-columns: 40% 55%;
+  gap:5%;
   min-height:400px;
   padding-bottom:60px;
+}
+.fivefunction-containers {
+  max-width:1200px;
 }
 .fivefunction-containers > :last-child {
   padding-bottom: 0px;
