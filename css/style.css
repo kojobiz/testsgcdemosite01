@@ -186,7 +186,7 @@ body {
   color:#2fc996;
   font-size:36px;
   vertical-align:top;
-  padding-left:20px;
+  padding-left:25px;
   font-weight:400;
   letter-spacing:0.05rem;
 }
@@ -194,7 +194,7 @@ body {
   color:#30554c;
   font-size:38px;
   margin-top:-15px;
-  padding-left:20px;
+  padding-left:25px;
   font-weight:600;
   letter-spacing:0.2rem;
 }
@@ -216,8 +216,8 @@ body {
   width:100%;
   background-color: #232323;
   display: grid;
-  grid-template-columns: 35% 55%;
-  gap:10%;
+  grid-template-columns: 42% 55%;
+  gap:3%;
   min-height:400px;
   padding-bottom:180px;
 }
@@ -233,7 +233,7 @@ body {
 .title-line-col::before {
   content:"";
   height:91px;
-  border: 3px solid #2fc996;
+  border: 4px solid #2fc996;
   position:absolute;
 }
 .title-sup {
@@ -250,6 +250,9 @@ body {
   background-size: cover;
   background-position: center center;
   overflow: hidden;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
 }
 .sectionExampleTitle::after {
   content: "";
@@ -264,5 +267,7 @@ body {
 .grid-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr); 
-  grid-gap: 10px; 
+  grid-gap: 10px;
+  max-width:836px;
+
 }
