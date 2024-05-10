@@ -311,3 +311,35 @@ body {
   left: calc(50% - (10% / 2));
   margin-top: 10px;
 }
+/*================================= 
+  price
+================================= */
+.sectionPrice {
+  width: 100%;
+  height: auto;
+  background-size: cover;
+  background-position: center center;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sectionPriceTitle::after {
+  content: "";
+  display: block;
+  width: 10%;
+  height: 2px;
+  background: #00a99d;
+  position: absolute;
+  left: calc(50% - (10% / 2));
+  margin-top: 10px;
+}
+.price-plan {
+  border: 1px solid #59b5d2;
+  border-width: 4px;
+  border-radius:15px;
+}
+.price-plan h1 {
+  font-size:26px;
+  color:#59b5d2;
+}
