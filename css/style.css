@@ -334,12 +334,12 @@ body {
   left: calc(50% - (10% / 2));
   margin-top: 10px;
 }
-.price-plan {
+.price-plan-a {
   border: 1px solid #59b5d2;
   border-width: 4px;
   border-radius:15px;
 }
-.price-plan h1 {
+.price-plan-a h1 {
   font-size:30px;
   color:#59b5d2;
   letter-spacing:15px;
@@ -356,4 +356,33 @@ body {
   color:#59b5d2;
   font-weight:700;
   font-size:45px;
+}
+.price-plan-b {
+  border: 1px solid #9CBC3C;
+  border-width: 4px;
+  border-radius:15px;
+}
+.price-plan-b h1 {
+  font-size:30px;
+  color:#9CBC3C;
+  letter-spacing:15px;
+  font-weight:500;
+}
+.plan-b-color {
+  color:#9CBC3C;
+  font-weight:500;
+}
+.text-tax {
+  margin-left:-10px;
+}
+.plan-b-price {
+  color:#9CBC3C;
+  font-weight:700;
+  font-size:45px;
+}
+.attention-plan {
+  list-style-type: '※';
+  list-style-position: inside;
+  text-indent: -16px !important;
+  padding-left: 20px !important;
 }
