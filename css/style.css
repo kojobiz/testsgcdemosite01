@@ -408,7 +408,7 @@ body {
   background: #00a99d;
   position: absolute;
   left: 0;
-  top:0;
+  bottom:0;
 }
 .sectionFaqTitle::after {
   content: "";
