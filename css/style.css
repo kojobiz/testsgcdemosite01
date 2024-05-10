@@ -385,4 +385,38 @@ body {
   list-style-position: inside;
   text-indent: -16px !important;
   padding-left: 20px !important;
+  padding-top:24px;
+}
+/*================================= 
+  Faq
+================================= */
+.sectionFaq {
+  width: 100%;
+  height: auto;
+  background-size: cover;
+  background-position: center center;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sectionFaqTitle::before {
+  content: "";
+  display: block;
+  width: 8%;
+  height: 2px;
+  background: #00a99d;
+  position: absolute;
+  left: 0;
+  top:0;
+}
+.sectionFaqTitle::after {
+  content: "";
+  display: block;
+  width: 8%;
+  height: 2px;
+  background: #00a99d;
+  position: absolute;
+  right: 0;
+  bottom: 0;
 }
