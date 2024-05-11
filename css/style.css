@@ -335,7 +335,6 @@ section[class*="section-py"] {
   padding-top: 80px;
   padding-bottom: 80px;
 }
-
 .section-content {
   width: 100%;
   padding: 0px 12%;
@@ -355,7 +354,6 @@ li[class^="planbox"] {
   box-sizing: border-box;
   align-items: center;
 }
-
 li[class^="planbox"] h1 {
   font-size: 30px;
   letter-spacing: 15px;
