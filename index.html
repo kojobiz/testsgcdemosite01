@@ -32,11 +32,11 @@
                     </div>
                     <nav>
                         <ul class="flex flex-row gap-[30px]">
-                            <li><a href="#reason" target="_blank" rel="noopener noreferrer">選ばれる理由</a></li>
-                            <li><a href="#" target="_blank" rel="noopener noreferrer">サービス紹介</a></li>
-                            <li><a href="#" target="_blank" rel="noopener noreferrer">導入までの流れ</a></li>
-                            <li><a href="#" target="_blank" rel="noopener noreferrer">料金プラン</a></li>
-                            <li><a href="#" target="_blank" rel="noopener noreferrer">よくあるご質問</a></li>
+                            <li><a href="#reason" target="_self" rel="noopener noreferrer">選ばれる理由</a></li>
+                            <li><a href="#explain" target="_self" rel="noopener noreferrer">サービス紹介</a></li>
+                            <li><a href="#flow" target="_self" rel="noopener noreferrer">導入までの流れ</a></li>
+                            <li><a href="#plan" target="_self" rel="noopener noreferrer">料金プラン</a></li>
+                            <li><a href="#faq" target="_self" rel="noopener noreferrer">よくあるご質問</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -81,7 +81,7 @@
         <!------------------------------- 
             explain
         -------------------------------->
-        <section class="sectionExplain px-[15%] py-[80px] flex flex-col justify-between gap-[60px]">
+        <section class="sectionExplain px-[15%] py-[80px] flex flex-col justify-between gap-[60px]" id="explain">
             <h1 class="self-center title-explain text-[20px] text-thinblack ">時間のかかる業務作業<span class="text-green text-[40px] align-sub pl-4 font-semibold">AIにおまかせしませんか？</span></h1>
             <p class="leading-[38px] self-center text-center">Smart Generative Chatなら社内ナレッジもWeb上の最新情報も取得可能！<br>用途に合わせて柔軟にデータソースを選択いただけます</span></p>
             <img src="./image/img_exp_01.png" alt="イラスト：説明している" srcset="" class="">
@@ -134,7 +134,7 @@
         <!------------------------------- 
             fivefunction
         -------------------------------->
-        <section class="sectionFivefunction py-[80px]">
+        <section class="sectionFivefunction py-[80px]" id="function">
             <h1 class="text-[35px] self-center text-center text-thinblack font-semibold sectionReasonTitle mb-20">Smart Generative Chat の<br><span class="text-orange text-7xl tracking-wider">5<span class="text-orange text-[35px] tracking-wider">つの</span><span class="text-orange text-[4rem] tracking-wider">機能</span></span></h1>
             <ul class="ml-[10rem] mr-[10rem] fivefunction-containers">
                 <li class=" fivefunction-container">
@@ -220,7 +220,7 @@
         <!------------------------------- 
             example
         -------------------------------->
-        <section class=" sectionExample py-[80px]">
+        <section class=" sectionExample py-[80px]" id="example">
             <h1 class="text-[40px] self-center text-center text-greengreen font-semibold sectionExampleTitle mb-20">導入実績</h1>
             <ul class="ml-20 mr-20 grid-container">
                 <li><img src="./image/img_logosample.png" alt=""></li>
@@ -293,7 +293,7 @@
         <!------------------------------- 
             flow
         -------------------------------->
-        <section class=" sectionFlow py-[80px] bg-white">
+        <section class=" sectionFlow py-[80px] bg-white" id="flow">
             <h1 class="text-[40px] self-center text-center text-greengreen font-semibold sectionFlowTitle mb-20">導入までの流れ</h1>
             <p class="leading-[38px] self-center text-center pb-[80px]">ご成約からおおよそ1.5ヶ月で納品となります<br>
                 個別開発がある場合は開発要件に応じてスケジュール調節をさせて頂きます</span></p>
@@ -304,7 +304,7 @@
         <!------------------------------- 
             plan
         -------------------------------->
-        <section class="sectionPlan flex flex-col section-py bg-white">
+        <section class="sectionPlan flex flex-col section-py bg-white" id="plan">
             <div class="section-content">
                 <h1 class="text-[40px] self-center text-center text-greengreen font-semibold sectionPlanTitle mb-20">料金プラン</h1>
                 <p class="leading-[38px] self-center text-center pb-[80px]">ご要望に応じて、どちらかのプランを選べます</p>
@@ -348,12 +348,11 @@
         <!------------------------------- 
            Faq
         -------------------------------->
-        <section class=" sectionFaq py-[80px] bg-white">
+        <section class=" sectionFaq py-[80px] bg-white" id="faq">
             <h1 class="text-[40px] self-center text-center text-greengreen font-semibold sectionFaqTitle mb-20 relative">1週間の無料トライアルをご用意！<br>
                 導入後も安心のサポート</h1>
-            <p class="leading-[38px] self-center text-center pb-[80px]">ご成約からおおよそ1.5ヶ月で納品となります<br>
-                個別開発がある場合は開発要件に応じてスケジュール調節をさせて頂きます</span></p>
-            <img src="./image/img_schedule_pc.png" alt="イラスト：説明している" srcset="" class="">
+            
+            <img src="./image/img_support_pc.png" alt="イラスト：画面イメージ" srcset="" class="max-w-[600px]" >
         </section>
 
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam fugiat odit tempore debitis hic doloremque harum molestias voluptatum sed. Voluptate quam earum quis esse? Impedit reiciendis obcaecati ipsa id non.
@@ -390,11 +389,9 @@
 
 
 
-
-
-
     <!-- footer -->
     <footer>
+        <h1>foooter</h1>
 
     </footer>
 
