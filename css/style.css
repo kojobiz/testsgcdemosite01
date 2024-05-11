@@ -407,20 +407,22 @@ p[class*="color3"] {
 .sectionFaqTitle::before {
   content: "";
   display: block;
-  width: 8%;
-  height: 2px;
+  width: 95px;
+  height: 4px;
   background: #00a99d;
   position: absolute;
-  left: 0;
-  bottom: 0;
+  left: -90px;
+  bottom: 43%;
+  transform: rotate(-111deg);
 }
 .sectionFaqTitle::after {
   content: "";
   display: block;
-  width: 8%;
-  height: 2px;
+  width: 95px;
+  height: 4px;
   background: #00a99d;
   position: absolute;
-  right: 0;
-  bottom: 0;
+  right: -90px;
+  bottom: 43%;
+  transform: rotate(111deg);
 }
