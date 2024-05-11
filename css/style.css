@@ -314,16 +314,6 @@ body {
 /*================================= 
   plan
 ================================= */
-.sectionPlan {
-  width: 100%;
-  height: auto;
-  background-size: cover;
-  background-position: center center;
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
 .sectionPlanTitle::after {
   content: "";
   display: block;
@@ -334,63 +324,13 @@ body {
   left: calc(50% - (10% / 2));
   margin-top: 10px;
 }
-/* .price-plan-a {
-  border: 1px solid #59b5d2;
-  border-width: 4px;
-  border-radius: 15px;
-} */
-/* .price-plan-a h1 {
-  font-size: 30px;
-  color: #59b5d2;
-  letter-spacing: 15px;
-  font-weight: 500;
-} */
-.plan-a-color {
-  color: #59b5d2;
-  font-weight: 500;
-}
-.text-tax {
-  margin-left: -10px;
-}
-.plan-a-price {
-  color: #59b5d2;
-  font-weight: 700;
-  font-size: 45px;
-}
-/* .price-plan-b {
-  border: 1px solid #9cbc3c;
-  border-width: 4px;
-  border-radius: 15px;
-} */
-/* .price-plan-b h1 {
-  font-size: 30px;
-  color: #9cbc3c;
-  letter-spacing: 15px;
-  font-weight: 500;
-} */
-.plan-b-color {
-  color: #9cbc3c;
-  font-weight: 500;
-}
-.text-tax {
-  margin-left: -10px;
-}
-.plan-b-price {
-  color: #9cbc3c;
-  font-weight: 700;
-  font-size: 45px;
-}
 .attention-plan {
   list-style-type: "※";
   list-style-position: inside;
   text-indent: -16px !important;
   padding-left: 20px !important;
-  padding-top: 24px;
+  line-height: 1.8rem;
 }
-
-/*================================= 
-  Plantest
-================================= */
 section[class*="section-py"] {
   padding-top: 80px;
   padding-bottom: 80px;
@@ -437,6 +377,7 @@ li[class^="planbox"] .yen {
   letter-spacing: 0.2rem;
   align-self: center;
   line-height: 25px;
+  padding-top: 10px;
 }
 li[class^="planbox"] .tax {
   font-weight: 500;
