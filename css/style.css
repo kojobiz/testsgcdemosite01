@@ -426,3 +426,32 @@ p[class*="color3"] {
   bottom: 43%;
   transform: rotate(111deg);
 }
+li[class^="supportbox"] {
+  width: 100%;
+  height: auto;
+  background: white;
+  padding: 40px;
+  border-radius: 20px;
+  border: 8px solid;
+  box-sizing: border-box;
+}
+li[class^="supportbox"] h1 {
+  font-size: 25px;
+  letter-spacing: 0.1rem;
+  font-weight: 500;
+  min-width: 320px;
+  text-align: center;
+}
+li[class^="supportbox"] .color6 {
+  padding: 0px 30px;
+}
+
+li[class*="color4"] {
+  color: #ffbd7b;
+}
+li[class*="color5"] {
+  color: #83dcbf;
+}
+p[class*="color6"] {
+  color: #191919;
+}
