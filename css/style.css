@@ -430,7 +430,7 @@ li[class^="supportbox"] {
   width: 45%;
   height: auto;
   background: white;
-  padding: 40px;
+  padding: 40px 40px 50px 40px;
   border-radius: 20px;
   border: 8px solid;
   box-sizing: border-box;
