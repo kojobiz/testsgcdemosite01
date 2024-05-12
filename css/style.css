@@ -120,18 +120,18 @@ body {
 /*================================= 
   reason
 ================================= */
-.sectionReason2 {
+/* .sectionReason2 {
   width: 100%;
   background-image: url("../image/bgimg_reason_0102.jpg");
   height: 1300px;
   background-size: cover;
   background-position: center center;
   overflow: hidden;
-}
+} */
 .sectionReason {
   width: 100%;
   background-image: url("../image/bgimg_reason_01.jpg");
-  height: 1300px;
+  height: auto;
   background-size: cover;
   background-position: center center;
   overflow: hidden;
@@ -469,19 +469,34 @@ p[class*="color6"] {
   justify-content: space-between;
   min-gap: 600px;
 }
-/* .decoline {
+
+/* decoline1~3 */
+.decoline1 {
   position: relative;
   height: auto;
 }
-.decoline::before {
+.decoline1::after {
   content: "";
   width: 100%;
-  height: -webkit-fill-available;
   position: absolute;
-  left: 0;
   z-index: 10;
   background: url("../image/deco_vcutline.svg") no-repeat center top / 100% auto;
-} */
+  aspect-ratio: 1 / 0.1;
+  bottom: -80px;
+}
+.decoline2 {
+  position: relative;
+  height: auto;
+}
+.decoline2::after {
+  content: "";
+  width: 100%;
+  position: absolute;
+  z-index: 10;
+  background: url("../image/deco_vcutline.svg") no-repeat center top / 100% auto;
+  aspect-ratio: 1 / 0.1;
+  bottom: 0;
+}
 .decoline2 {
   position: relative;
   height: auto;
