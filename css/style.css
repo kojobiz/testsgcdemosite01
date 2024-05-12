@@ -495,7 +495,7 @@ p[class*="color6"] {
   position: absolute;
   left: 0;
   z-index: 10;
-  top:-120px;
+  top: -120px;
   background: url("../image/deco_vcutline.svg") no-repeat center top / 100% auto;
 }
 
@@ -523,4 +523,13 @@ p[class*="color6"] {
 .section-content-tight {
   width: 100%;
   padding: 0px 25%;
+}
+
+/*================================= 
+  tel
+================================= */
+@media (min-width: 768px) {
+  a[href^="tel:"] {
+    pointer-events: none;
+  }
 }
