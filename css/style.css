@@ -231,7 +231,7 @@ body {
   padding-bottom: 0px;
 }
 .grid-reverse {
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 55% 42%;
 }
 .title-line-col::before {
   content: "";
