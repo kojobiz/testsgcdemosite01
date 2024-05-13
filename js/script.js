@@ -10,3 +10,5 @@ window.addEventListener('scroll', function() {
         sideNav.style.display = 'none';
     }
 });
+
+
