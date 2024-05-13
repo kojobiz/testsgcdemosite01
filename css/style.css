@@ -66,6 +66,7 @@ body {
   background-position: right bottom;
   overflow: hidden;
 }
+
 /* titleタグ */
 /* title_03　about50pxFont */
 .title-big {
@@ -537,3 +538,18 @@ p[class*="color6"] {
     pointer-events: none;
   }
 }
+
+@media (max-width:768px) {
+  .sectionHero {
+    background-image: url("../image/bgimg_hero_mo.jpg");
+    width: 100%;
+    height: 964px;
+    background-size: cover;
+    background-position: right bottom;
+    overflow: hidden;
+  }
+  header {
+    height:75px;
+  }
+}
+ 
