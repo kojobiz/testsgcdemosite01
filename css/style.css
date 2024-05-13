@@ -480,9 +480,9 @@ p[class*="color6"] {
   width: 100%;
   position: absolute;
   z-index: 10;
-  background: url("../image/deco_vcutline.svg") no-repeat center top / 100% auto;
+  background: url("../image/deco_vcutline2.svg") no-repeat center top / 100% auto;
   aspect-ratio: 1 / 0.1;
-  bottom: 0px;
+  bottom: -1rem;
 }
 .decoline2 {
   position: relative;
@@ -493,7 +493,7 @@ p[class*="color6"] {
   width: 100%;
   position: absolute;
   z-index: 10;
-  background: url("../image/deco_vcutline.svg") no-repeat center top / 100% auto;
+  background: url("../image/deco_vcutline2.svg") no-repeat center top / 100% auto;
   aspect-ratio: 1 / 0.1;
   bottom: 0;
 }
@@ -506,7 +506,7 @@ p[class*="color6"] {
   width: 100%;
   position: absolute;
   z-index: 10;
-  background: url("../image/deco_vcutline.svg") no-repeat center top / 100% auto;
+  background: url("../image/deco_vcutline2.svg") no-repeat center top / 100% auto;
   aspect-ratio: 1 / 0.1;
   bottom: 0;
 }
