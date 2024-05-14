@@ -640,6 +640,13 @@ p[class*="color6"] {
     background-size: cover;
     background-position: right bottom;
   }
+  .sectionHero {
+    background-image: url("../image/bgimg_hero_mo.jpg");
+    width: 100%;
+    height: 964px;
+    background-size: cover;
+    background-position: right bottom;
+  }
   .header-inner {
     height: 75px;
   }
@@ -660,6 +667,12 @@ p[class*="color6"] {
   }
   .container-wide {
     width:100%;
+  }
+  .pc-explain {
+    display:none;
+  }
+  .mobile-explain {
+    display:block;
   }
 }
 
