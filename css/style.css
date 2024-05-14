@@ -593,7 +593,7 @@ p[class*="color6"] {
 }
 
 /*================================= 
-  tel
+  @media
 ================================= */
 /* 最小768で */
 @media (min-width: 768px) {
@@ -621,5 +621,9 @@ p[class*="color6"] {
     visibility: visible;
     display: inline-flex;
     vertical-align: center;
+  }
+  .side-nav {
+    display:none;
+    visibility:hidden;
   }
 }
