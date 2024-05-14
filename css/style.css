@@ -212,30 +212,29 @@ body {
   margin-top: 10px;
 }
 
+
 .reason031 {
-  width: calc(1144px * 0.9);
-  background-image: url("../image/bgimg_reason_031.png");
-  height: calc(221px * 0.9);
-  background-size: cover;
-  background-position: center center;
-  overflow: hidden;
+  width:20%;
+  height:auto;
+  background-image: url("../image/ico_reason_031.png");
+  background-repeat:no-repeat;
+  background-position: right 0px bottom -5px;
 }
 .reason032 {
-  width: calc(1144px * 0.9);
-  background-image: url("../image/bgimg_reason_032.png");
-  height: calc(221px * 0.9);
-  background-size: cover;
-  background-position: center center;
-  overflow: hidden;
+  width:20%;
+  height:auto;
+  background-image: url("../image/ico_reason_032.png");
+  background-repeat:no-repeat;
+  background-position: right 0px bottom -5px;
 }
 .reason033 {
-  width: calc(1144px * 0.9);
-  background-image: url("../image/bgimg_reason_033.png");
-  height: calc(221px * 0.9);
-  background-size: cover;
-  background-position: center center;
-  overflow: hidden;
+  width:20%;
+  height:auto;
+  background-image: url("../image/ico_reason_033.png");
+  background-repeat:no-repeat;
+  background-position: right 0px bottom -5px;
 }
+
 /*================================= 
   fivefunction
 ================================= */
