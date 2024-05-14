@@ -352,11 +352,13 @@ body {
   left: calc(50% - (10% / 2));
   margin-top: 10px;
 }
-.grid-container {
+.example-box {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 20px;
   max-width: 836px;
+  margin-left:5rem;
+  margin-right:5rem;
 }
 /*================================= 
   attention
@@ -673,6 +675,11 @@ p[class*="color6"] {
   }
   .mobile-explain {
     display:block;
+  }
+  .example-box {
+    margin-right:2rem;
+    margin-left:2rem;
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
