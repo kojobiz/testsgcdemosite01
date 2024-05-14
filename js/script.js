@@ -18,3 +18,16 @@ window.addEventListener('scroll', function() {
 });
 
 
+document.addEventListener('DOMContentLoaded', function() {
+    var hamburgerMenuOpen = document.getElementById('hamburgermenu-open');
+    var hamburgerMenuClose = document.getElementById('hamburgermenu-close');
+    var sideNav = document.querySelector('.sectionMobilenav');
+
+    hamburgerMenuOpen.addEventListener('click', function() {
+        sideNav.style.right = '0'; // メニューを表示
+    });
+
+    hamburgerMenuClose.addEventListener('click', function() {
+        sideNav.style.right = '-100%'; // メニューを隠す
+    });
+});

@@ -130,6 +130,11 @@ body {
   background-color:#a8a8a8;
   position:absolute;
   top:0px;
+  /* add */
+  position: fixed;
+  right: -100%;
+  transition: right 0.3s ease-in-out;
+  z-index: 50;
 }
 .btn-close {
   padding-left:92%;
@@ -145,7 +150,7 @@ body {
 }
 .mobilenav-box {
   width:67%;
-  hegith:200px;
+  height:200px;
   display: flex;
   flex-direction:column;
   margin-left:20%;
