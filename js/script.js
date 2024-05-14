@@ -31,3 +31,4 @@ document.addEventListener('DOMContentLoaded', function() {
         sideNav.style.right = '-100%'; // メニューを隠す
     });
 });
+

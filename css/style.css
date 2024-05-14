@@ -645,6 +645,21 @@ p[class*="color6"] {
   padding: 0px 25%;
 }
 
+.faq-container h1 {
+  font-size:40px;
+  color:#204D47;
+  font-weight:500;
+  margin-top:-31px;
+}
+.faq-container p {
+  font-size:20px;
+  color:#204D47;
+  font-weight:500;
+  padding-left:10px;
+}
+
+
+
 /*================================= 
   @media
 ================================= */
