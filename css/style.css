@@ -561,7 +561,7 @@ p[class*="color6"] {
     height: 75px;
   }
   .header-inner-nav {
-    display: none;
+    display: none!important;
   }
   .hamburger-menu {
     visibility: visible;
