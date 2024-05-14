@@ -211,7 +211,12 @@ body {
   left: calc(50% - (10% / 2));
   margin-top: 10px;
 }
-
+.reason-box {
+  width: min(1100px, 80%);
+}
+.reason-box li {
+  border-radius:15px;
+}
 
 .reason031 {
   width:20%;
