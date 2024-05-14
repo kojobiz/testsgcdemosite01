@@ -126,6 +126,7 @@ body {
   justify-content:flex-end;
   align-items:flex-end;
   flex-wrap:wrap;
+  background-color: rgba(128, 128, 128, 0.5);
 }
 .btn-close {
   padding-left:92%;
@@ -151,6 +152,7 @@ body {
 .mobilenav-box li {
   border-bottom: 2px solid #2fc996;
   padding: 23px 0 5px 0;
+  font-size:18px;
 }
 .mobilenav-box-tel {
   font-size: clamp(30px, 3.5vw, 45px);
