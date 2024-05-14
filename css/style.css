@@ -216,6 +216,7 @@ body {
 }
 .reason-box li {
   border-radius:15px;
+  height:min(225px, auto);
 }
 
 .reason031 {
