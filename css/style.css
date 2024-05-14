@@ -541,12 +541,14 @@ p[class*="color6"] {
 /*================================= 
   tel
 ================================= */
+/* 最小768で */
 @media (min-width: 768px) {
   a[href^="tel:"] {
     pointer-events: none;
   }
 }
 
+/* 最大768で */
 @media (max-width: 768px) {
   .sectionHero {
     background-image: url("../image/bgimg_hero_mo.jpg");
@@ -558,7 +560,7 @@ p[class*="color6"] {
   .header-inner {
     height: 75px;
   }
-  .header-nav {
+  .header-inner-nav {
     display: none;
   }
   .hamburger-menu {
