@@ -95,7 +95,6 @@ body {
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   border-radius: 9999px;
   transition: box-shadow 0.5s ease;
-  width: clamp(200px, 450px, 90%);
 }
 .a-shadow:hover {
   box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.7);
@@ -174,11 +173,11 @@ body {
   font-size: 18px;
 }
 .mobilenav-box-tel {
-  font-size: clamp(21px, 54px, 90%);
+  font-size: clamp(21px, 54px, 90%) !important;
   line-height: 1.2;
 }
 .mobilenav-box-information {
-  font-size: clamp(16px, 2.5vw, 100%);
+  font-size: clamp(16px, 2.5vw, 90%);
 }
 
 /*================================= 
@@ -747,6 +746,11 @@ p[class*="color6"] {
   .icon-plan-price {
     top: -8px;
     right: 20px;
+  }
+  .a-shadow {
+    width: clamp(200px, 450px, 90%);
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
