@@ -37,13 +37,21 @@ document.addEventListener('DOMContentLoaded', function() {
 window.addEventListener('scroll', function() {
     var footerNavs = document.querySelectorAll('.footer-nav a');
     var scrollPosition = window.scrollY;
+    var screenWidth = window.innerWidth; // デバイスの幅を取得
 
-    // スクロールが980px以上の場合、footer-navを表示する
+    // スクロールが800px以上の場合、footer-navを表示する
     if (scrollPosition >= 800) {
         footerNavs.forEach(function(nav) {
             nav.style.display = 'block';
         });
     } else {
+        footerNavs.forEach(function(nav) {
+            nav.style.display = 'none';
+        });
+    }
+
+    // デバイスの幅が768以上の場合、footer-navを非表示にする
+    if (screenWidth >= 768) {
         footerNavs.forEach(function(nav) {
             nav.style.display = 'none';
         });
