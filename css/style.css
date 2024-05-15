@@ -79,6 +79,7 @@ body {
 .sectionHero-inner {
   padding-top: 8%;
   width: 760px;
+  padding-left: 5rem;
 }
 .herotitle-sp {
   display: none;
@@ -97,6 +98,7 @@ body {
   width: calc(740px);
   margin-left: -5rem;
   margin-top: 10px;
+  overflow-y: hidden;
 }
 .a-shadow {
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
@@ -684,6 +686,9 @@ p[class*="color6"] {
     background-size: cover;
     background-position: right bottom;
   }
+  .sectionHero .title-big::after {
+    width: 100%;
+  }
   .herotitle-pc {
     display: none;
   }
@@ -692,6 +697,8 @@ p[class*="color6"] {
   }
   .sectionHero-inner {
     width: 100vw;
+    padding-left: 2rem;
+    padding-right: 2rem;
   }
   .header-inner {
     height: 96px;
