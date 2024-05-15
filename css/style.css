@@ -136,7 +136,7 @@ body {
   justify-content: flex-end;
   align-items: flex-end;
   flex-wrap: wrap;
-  background-color: rgba(128, 128, 128, 0.5);
+  background-color: rgba(128, 128, 128, 0.8);
   position: absolute;
   top: 0px;
   position: fixed;
