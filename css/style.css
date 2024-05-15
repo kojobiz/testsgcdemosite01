@@ -38,6 +38,21 @@ body {
 .text-orange {
   color: #ff8000;
 }
+.text-orange-number {
+  font-weight: 700;
+  color: #ff8000;
+  font-size: 6rem;
+}
+.text-orange-textleft {
+  font-weight: 600;
+  color: #ff8000;
+  font-size: 53px;
+}
+.text-orange-textright {
+  font-weight: 600;
+  color: #ff8000;
+  font-size: 5.8rem;
+}
 .text-green {
   color: #2fc996;
 }
