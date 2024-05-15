@@ -81,6 +81,10 @@ body {
   width: 760px;
   padding-left: 5rem;
 }
+.ico-hero {
+  padding-left: 15%;
+  padding-right: 15%;
+}
 .herotitle-sp {
   display: none;
 }
@@ -118,6 +122,12 @@ body {
   box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.7);
   transform: translate(3px);
 }
+.bfooter-shadow:hover {
+  transform: translate(3px);
+}
+.bfooter-shadow {
+  margin-bottom: -1px;
+}
 
 /*================================= 
   nav
@@ -126,6 +136,12 @@ body {
   position: fixed;
   top: 120px;
   right: 0;
+}
+.footer-nav {
+  position: fixed;
+  bottom: 0px;
+  left: 0;
+  display: hidden;
 }
 .hamburger-menu {
   display: none;
@@ -682,12 +698,16 @@ p[class*="color6"] {
   .sectionHero {
     background-image: url("../image/bgimg_hero_mo.jpg");
     width: 100%;
-    height: calc(100vh - 96px);
+    height: 1430px;
     background-size: cover;
-    background-position: right bottom;
+    background-position: center bottom;
   }
   .sectionHero .title-big::after {
     width: 100%;
+  }
+  .ico-hero {
+    padding-left: 2rem;
+    padding-right: 2rem;
   }
   .herotitle-pc {
     display: none;
@@ -696,7 +716,7 @@ p[class*="color6"] {
     display: block;
   }
   .sectionHero-inner {
-    width: 100vw;
+    width: auto;
     padding-left: 2rem;
     padding-right: 2rem;
   }

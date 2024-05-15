@@ -1,4 +1,4 @@
-// script.js
+// browser side nav
 window.addEventListener('scroll', function() {
     var sideNav = document.getElementById('side-nav');
     var scrollPosition = window.scrollY;
@@ -32,3 +32,20 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
+
+// mobile footer nav
+window.addEventListener('scroll', function() {
+    var footerNavs = document.querySelectorAll('.footer-nav a');
+    var scrollPosition = window.scrollY;
+
+    // スクロールが980px以上の場合、footer-navを表示する
+    if (scrollPosition >= 800) {
+        footerNavs.forEach(function(nav) {
+            nav.style.display = 'block';
+        });
+    } else {
+        footerNavs.forEach(function(nav) {
+            nav.style.display = 'none';
+        });
+    }
+});
