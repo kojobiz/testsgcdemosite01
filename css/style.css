@@ -711,6 +711,29 @@ p[class*="color6"] {
   }
 }
 
+/*================================= 
+  mp4
+================================= */
+.video-container {
+  position: relative;
+  display: inline-block;
+}
+.video-container video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding-left: 92px;
+  margin-top: -10px;
+}
+.video_pc {
+  width: 742px;
+  height: 368px;
+}
+.video {
+  width: 552px;
+  height: 353px;
+}
+
 /* 最大768で */
 @media (max-width: 768px) {
   .sectionHero {
@@ -818,6 +841,15 @@ p[class*="color6"] {
   }
   .mobilenav-box-telnumber {
     font-size: clamp(29px, 25px, 90%);
+  }
+  /* mp4 */
+  .video_pc {
+    width: 80%;
+    height: auto;
+  }
+  .video {
+    width: 60%;
+    height: auto;
   }
 }
 
