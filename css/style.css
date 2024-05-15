@@ -76,6 +76,13 @@ body {
   background-position: right bottom;
   overflow: hidden;
 }
+.sectionHero-inner {
+  padding-top: 8%;
+  width: 760px;
+}
+.herotitle-sp {
+  display: none;
+}
 
 /* titleタグ */
 /* title_03　about50pxFont */
@@ -676,6 +683,15 @@ p[class*="color6"] {
     height: calc(100vh - 96px);
     background-size: cover;
     background-position: right bottom;
+  }
+  .herotitle-pc {
+    display: none;
+  }
+  .herotitle-sp {
+    display: block;
+  }
+  .sectionHero-inner {
+    width: 100vw;
   }
   .header-inner {
     height: 96px;
