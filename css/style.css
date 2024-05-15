@@ -136,14 +136,11 @@ body {
   justify-content: flex-end;
   align-items: flex-end;
   flex-wrap: wrap;
-  /* background-color: rgba(128, 128, 128, 0.5); */
-  background-color: #a8a8a8;
+  background-color: rgba(128, 128, 128, 0.5);
   position: absolute;
   top: 0px;
-  /* add */
   position: fixed;
   right: -100%;
-
   transition: right 0.3s ease-in-out;
   z-index: 50;
 }
@@ -164,7 +161,7 @@ body {
   flex-direction: column;
   margin-left: 20%;
   width: 80%;
-  margin-top: 30px;
+  margin-top: 0px;
   padding-bottom: 30px;
 }
 .mobilenav-box li {
@@ -172,9 +169,8 @@ body {
   padding: 23px 0 5px 0;
   font-size: 18px;
 }
-.mobilenav-box-tel {
-  font-size: clamp(21px, 54px, 90%) !important;
-  line-height: 1.2;
+.mobilenav-box-telnumber {
+  font-size: 45px;
 }
 .mobilenav-box-information {
   font-size: clamp(16px, 2.5vw, 90%);
@@ -751,6 +747,9 @@ p[class*="color6"] {
     width: clamp(200px, 450px, 90%);
     margin-left: auto;
     margin-right: auto;
+  }
+  .mobilenav-box-telnumber {
+    font-size: clamp(29px, 25px, 90%);
   }
 }
 
