@@ -47,7 +47,7 @@
     </header>
 
     <!-- main -->
-    <main>
+    <main class="min-h-[100vh]">
         <!-- セクション：送信完了 -->
         <section>
             <div class="contact_header brandcolor_bg">
@@ -73,130 +73,23 @@
                 </ol>
             </nav>
             
-
-            <!-- タイトルテキスト -->
-            <p class="text_20_1.2 text-center">資料請求、無料トライアルは以下の電話番号<br>
-                または、メールフォームよりお気軽にお申し込みください。</p>
-            <br>
-
-
-            <!-- 電話でのお申し込み -->
-            <div class="callpattern">
-                <div class="callpattern_inner brandcolor_bg">
-                    <p>電話でのお申し込み</p>
-                </div>
-                <div class="callinformation">
-                    <div class="flex flex-row gap-2">
-                        <img src="./image/ico_reason_call.png" alt="">
-                        <p class="call_number callinformation_text_color">03-3342-9620</p>
-                    </div>
-                    <div>
-                        <p class="call_time callinformation_text_color">受付時間  10:00~18:00【土日祝定休日】</p>
-                    </div>
-                </div>
-            </div>
-            <br>
-        </section>
+            <div class="flex flex-col mx-[20%] justify-center">
+                <h1 class="my-[80px] text-center">この度はお申し込み頂き誠にありがとうございます。<br><br>
+                    ご入力いただきましたメールアドレス宛に<br>
+                    確認メールを送付しております。<br><br>
+                    ※ご指定いただいたメールアドレスへ届いていない場合は<br>
+    お手数をおかけいたしますが、
+    再度、お申し込みフォームにて必要な情報をご入力ください。</p>
+ </div>
+ <div>
+    <a href="/"><img src="./image/btn_to_top.png" alt="" class="w-[200px] mx-auto my-8"></a>
+ </div>
 
 
-
-        <!-- セクション：入力フォーム -->
-        <section class="contactform"> 
-            
-            <div class="form_item2">       
-                <h2>ご用件</h2>
-                <p>[mwform_radio name="category" children="資料請求を希望,無料トライアルを希望,その他" value="資料請求を希望"]</p>
-            </div>
-            <div class="form_item2">       
-                <h2>ご用件</h2>
-                <p>[mwform_radio name="category" children="資料請求を希望,無料トライアルを希望,その他" value="資料請求を希望"]</p>
-            </div>
-            <div class="form_item2">       
-                <h2>ご用件</h2>
-                <p>[mwform_radio name="category" children="資料請求を希望,無料トライアルを希望,その他" value="資料請求を希望"]</p>
-            </div>
-            <div class="form_item2">       
-                <h2>ご用件</h2>
-                <p>[mwform_radio name="category" children="資料請求を希望,無料トライアルを希望,その他" value="資料請求を希望"]</p>
-            </div>
-            <div class="form_item2">       
-                <h2>ご用件</h2>
-                <p>[mwform_radio name="category" children="資料請求を希望,無料トライアルを希望,その他" value="資料請求を希望"]</p>
-            </div>
-            
-        <div class="form-item">
-
-        会社名（必須）
-
-        [mwform_text name="company" size="60" placeholder="例：株式会社システムサポート" conv_half_alphanumeric="true"]</div>
-
-        <hr />
-
-        氏名（必須）
-
-        [mwform_text name="namewho" size="60" placeholder="例：シス田サポ郎" conv_half_alphanumeric="true"]
-
-        <hr />
-
-        メールアドレス（必須）
-
-        [mwform_email name="email" size="60" placeholder="例：xxx@xxx.com"]
-
-        <hr />
-
-        電話番号（必須）
-
-        [mwform_tel name="tel"　placeholder="例：06-xxxx-xxxx"]
-
-        <hr />
-
-        お申し込み内容
-
-        [mwform_textarea name="content" cols="50" rows="5" placeholder="お聞きしたい事などがあればご記入ください"]
-
-        <hr />
-
-        [mwform_submitButton name="mwform_submitButton-645" confirm_value="確認画面へ" submit_value="送信する"]
-
-        </section>   
-    </main>
-
-
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
 
 
     <!-- footer -->
-    <footer>
-        <div class="bg-[#F2F2F2] w-[100%] pt-[180px] pb-[30px]  px-20 text-[#30554C]">
-            <h1 class="text-xl pb-4">株式会社システムサポート</h1>
-            <table>
-                <tr>
-                <td>上場証券取引所</td>
-                <td>：東京証券取引所 プライム市場</td>
-                </tr>
-                <tr>
-                <td>創業</td>
-                <td>：1980年1月</td>
-                </tr>
-                <tr>
-                <td>資本金</td>
-                <td>：7億23百万円</td>
-                </tr>
-                <tr>
-                <td>本社所在地</td>
-                <td>：〒920-0853 石川県金沢市本町1-5-2 リファーレ9F</td>
-                </tr>
-            </table>
-        </div>
+    <footer class="pt-[80px]">
         <p class="bg-[#30554c] h-[53px] text-white text-center content-center">
             &copy;System Support Inc.
         </p>
@@ -204,6 +97,6 @@
 
     <!-- script -->
     <script src="./js/script.js"></script>
-
+   
 </body>
 </html>
