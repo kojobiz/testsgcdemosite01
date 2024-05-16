@@ -154,7 +154,7 @@ body {
 }
 .footer-nav {
   position: fixed;
-  bottom: 0px;
+  bottom: 10px;
   left: 0;
   display: hidden;
 }
