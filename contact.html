@@ -309,101 +309,28 @@
 
             <div></div>
             <div></div>
-            <button id="submitBtn" class="border border-gray-300 p-2 rounded-md">確認する</button>
+            <!-- <button id="submitBtn" class="border border-gray-300 p-2 rounded-md">確認する</button> -->
 
             <div></div>
             <div></div>
             <div id="result"></div>
         </section>
-        <section class="flex flex-row gap-[20px] justify-between w-[380px]">
-            <a href="http://" target="_blank" rel="noopener noreferrer" class="about">個人情報保護方針</a>
-            <a href="http://" target="_blank" rel="noopener noreferrer" class="about">個人情報の取扱について</a>
+        <section class="flex flex-col align-center justify-center content-center flex-wrap py-20">
+            <div class="flex flex-row gap-[20px] justify-between w-[380px]">
+                <a href="http://" target="_blank" rel="noopener noreferrer" class="about">個人情報保護方針</a>
+                <a href="http://" target="_blank" rel="noopener noreferrer" class="about">個人情報の取扱について</a>
+            </div>
+            <label class="inline-flex justify-evenly">
+                <input type="checkbox" class="form-radio ml-[30px] " name="radio-option" value="option1" onchange="toggleSubmitButton(this)">
+                <span class="ml-[-1rem] consent text-[21px] py-4">個人情報保護方針に同意する</span>
+            </label>
+            <button type="button" id="submitBtn" class="mx-auto"><img src="./image/btn_to_confirm.png" alt="" class="to-confirm"></button>
         </section>
-
-
-
-        <!-- <script>
-            document.getElementById('submitBtn').addEventListener('click', function() {
-                const company = document.getElementById('company').value;
-                const name = document.getElementById('name').value;
-                const email = document.getElementById('email').value;
-                const phone = document.getElementById('phone').value;
-                const details = document.getElementById('details').value;
-                const radioOption = document.querySelector('input[name="radio-option"]:checked').value;
-        
-                const result = `
-                    <h3>入力された情報</h3>
-                    <p><strong>ご用件:</strong> ${radioOption}</p>
-                    <p><strong>会社名:</strong> ${company}</p>
-                    <p><strong>氏名:</strong> ${name}</p>
-                    <p><strong>メールアドレス:</strong> ${email}</p>
-                    <p><strong>ご用件:</strong> ${phone}</p>
-                    <p><strong>お申し込み内容:</strong> ${details}</p>
-                `;
-        
-                document.getElementById('result').innerHTML = result;
-            });
-        </script> -->
-        <script>
-            document.getElementById('submitBtn').addEventListener('click', function(event) {
-                event.preventDefault();  // フォームのデフォルトの送信動作を防ぐ
-                const company = document.getElementById('company').value;
-                const name = document.getElementById('name').value;
-                const email = document.getElementById('email').value;
-                const phone = document.getElementById('phone').value;
-                const details = document.getElementById('details').value;
-                const radioOption = document.querySelector('input[name="radio-option"]:checked').value;
-        
-                const formData = {
-                    radioOption: radioOption,
-                    company: company,
-                    name: name,
-                    email: email,
-                    phone: phone,
-                    details: details
-                };
-        
-                localStorage.setItem('formData', JSON.stringify(formData));
-                window.location.href = 'confirm.html';
-            });
-        </script>
     </main>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-
 
     <!-- footer -->
     <footer>
-        <div class="bg-[#F2F2F2] w-[100%] pb-[30px] px-[15%] tracking-wider text-[#30554C]">
-            <h1 class="text-2xl pb-4 tracking-tight font-semibold">株式会社システムサポート</h1>
-            <table>
-                <tr>
-                  <td>上場証券取引所</td>
-                  <td>：東京証券取引所 プライム市場</td>
-                </tr>
-                <tr>
-                  <td>創業</td>
-                  <td>：1980年1月</td>
-                </tr>
-                <tr>
-                  <td>資本金</td>
-                  <td>：7億23百万円</td>
-                </tr>
-                <tr>
-                  <td>本社所在地</td>
-                  <td>：〒920-0853 石川県金沢市本町1-5-2 リファーレ9F</td>
-                </tr>
-              </table>
-        </div>
-        <p class="bg-[#30554c] h-[113px] pb-[60px] text-white text-center content-center">
+        <p class="bg-[#30554c] h-[53px] text-white text-center content-center">
             &copy;System Support Inc.
         </p>
     </footer>

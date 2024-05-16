@@ -57,3 +57,36 @@ window.addEventListener('scroll', function() {
         });
     }
 });
+
+// 入力情報を別ページに表示させる
+document.getElementById('submitBtn').addEventListener('click', function(event) {
+    event.preventDefault();  // フォームのデフォルトの送信動作を防ぐ
+    const company = document.getElementById('company').value;
+    const name = document.getElementById('name').value;
+    const email = document.getElementById('email').value;
+    const phone = document.getElementById('phone').value;
+    const details = document.getElementById('details').value;
+    const radioOption = document.querySelector('input[name="radio-option"]:checked').value;
+
+    const formData = {
+        radioOption: radioOption,
+        company: company,
+        name: name,
+        email: email,
+        phone: phone,
+        details: details
+    };
+
+    localStorage.setItem('formData', JSON.stringify(formData));
+    window.location.href = 'confirm.html';
+});
+
+// チェックボックスtrueでボタン押下可能
+function toggleSubmitButton(checkbox) {
+    var submitBtn = document.getElementById("submitBtn");
+    if (checkbox.checked) {
+        submitBtn.classList.add("active");
+    } else {
+        submitBtn.classList.remove("active");
+    }
+}

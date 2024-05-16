@@ -104,6 +104,7 @@ section.contactform-grid {
     display: grid;
     grid-template-columns: 0.8fr 0.5fr 2fr;
     grid-gap: 10px;
+    padding-top:20px;
 }
 .input-text-width {
     max-width:694px;
@@ -133,7 +134,9 @@ section.contactform-grid {
     display: inline-block;
     margin-left:4px;
 }
-
+#submitBtn {
+    background-color:white;
+}
 .form_item2 h2 {
     width:45%;
     
@@ -162,7 +165,17 @@ section.contactform-grid {
 .form_item2 p {
     padding-left:50px;
 }
-
+#submitBtn {
+    opacity: 0.5;
+    pointer-events: none;
+}
+#submitBtn.active {
+    opacity: 1; 
+    pointer-events: auto; 
+}
+#submitBtn:hover.active {
+    background-color: #2fc996;
+}
 
 
 
