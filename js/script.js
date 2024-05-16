@@ -105,3 +105,11 @@ function toggleSubmitButton(checkbox) {
         submitBtn.classList.remove("active");
     }
 }
+
+// ラジオボタンのデフォルト設定各種
+function setRadioOption(optionValue) {
+    var radioOption = document.querySelector('input[name="radio-option"][value="' + optionValue + '"]');
+    if (radioOption) {
+        radioOption.checked = true;
+    }
+}
