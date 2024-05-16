@@ -133,59 +133,65 @@
 
 
 
-        <section id="result">
-            <h3>入力された情報</h3>
-            <p><strong>ご用件:</strong> <span id="radioOption"></span></p>
-            <p><strong>会社名:</strong> <span id="company"></span></p>
-            <p><strong>氏名:</strong> <span id="name"></span></p>
-            <p><strong>メールアドレス:</strong> <span id="email"></span></p>
-            <p><strong>ご用件:</strong> <span id="phone"></span></p>
-            <p><strong>お申し込み内容:</strong> <span id="details"></span></p>
-        </section>
-        
-        <!-- <script>
-            document.addEventListener('DOMContentLoaded', function() {
-                const formData = JSON.parse(localStorage.getItem('formData'));
-                
-                if (formData) {
-                    document.getElementById('radioOption').textContent = formData.radioOption;
-                    document.getElementById('company').textContent = formData.company;
-                    document.getElementById('name').textContent = formData.name;
-                    document.getElementById('email').textContent = formData.email;
-                    document.getElementById('phone').textContent = formData.phone;
-                    document.getElementById('details').textContent = formData.details;
-                } else {
-                    document.getElementById('result').textContent = 'フォームデータが見つかりませんでした。';
-                }
-            });
-        </script>   -->
-        <section id="result">
-            <h3>入力された情報</h3>
-            <p><strong>ご用件:</strong> <span id="radioOption"></span></p>
-            <p><strong>会社名:</strong> <span id="company"></span></p>
-            <p><strong>氏名:</strong> <span id="name"></span></p>
-            <p><strong>メールアドレス:</strong> <span id="email"></span></p>
-            <p><strong>ご用件:</strong> <span id="phone"></span></p>
-            <p><strong>お申し込み内容:</strong> <span id="details"></span></p>
-        </section>
-        
-        <script>
-            document.addEventListener('DOMContentLoaded', function() {
-                const formData = JSON.parse(localStorage.getItem('formData'));
-                
-                if (formData) {
-                    document.getElementById('radioOption').textContent = formData.radioOption;
-                    document.getElementById('company').textContent = formData.company;
-                    document.getElementById('name').textContent = formData.name;
-                    document.getElementById('email').textContent = formData.email;
-                    document.getElementById('phone').textContent = formData.phone;
-                    document.getElementById('details').textContent = formData.details;
-                } else {
-                    document.getElementById('result').textContent = 'フォームデータが見つかりませんでした。';
-                }
-            });
-        </script>
-        <button type="button" class="rounded-full bg-pink-300" id="soushin"><a href="./completion.html">送信する</a></button>
+        <!-- セクション：入力フォーム -->
+        <section class="contactform"> 
+            
+            <div class="form_item2">       
+                <h2>ご用件</h2>
+                <p>[mwform_radio name="category" children="資料請求を希望,無料トライアルを希望,その他" value="資料請求を希望"]</p>
+            </div>
+            <div class="form_item2">       
+                <h2>ご用件</h2>
+                <p>[mwform_radio name="category" children="資料請求を希望,無料トライアルを希望,その他" value="資料請求を希望"]</p>
+            </div>
+            <div class="form_item2">       
+                <h2>ご用件</h2>
+                <p>[mwform_radio name="category" children="資料請求を希望,無料トライアルを希望,その他" value="資料請求を希望"]</p>
+            </div>
+            <div class="form_item2">       
+                <h2>ご用件</h2>
+                <p>[mwform_radio name="category" children="資料請求を希望,無料トライアルを希望,その他" value="資料請求を希望"]</p>
+            </div>
+            <div class="form_item2">       
+                <h2>ご用件</h2>
+                <p>[mwform_radio name="category" children="資料請求を希望,無料トライアルを希望,その他" value="資料請求を希望"]</p>
+            </div>
+            
+        <div class="form-item">
+
+        会社名（必須）
+
+        [mwform_text name="company" size="60" placeholder="例：株式会社システムサポート" conv_half_alphanumeric="true"]</div>
+
+        <hr />
+
+        氏名（必須）
+
+        [mwform_text name="namewho" size="60" placeholder="例：シス田サポ郎" conv_half_alphanumeric="true"]
+
+        <hr />
+
+        メールアドレス（必須）
+
+        [mwform_email name="email" size="60" placeholder="例：xxx@xxx.com"]
+
+        <hr />
+
+        電話番号（必須）
+
+        [mwform_tel name="tel"　placeholder="例：06-xxxx-xxxx"]
+
+        <hr />
+
+        お申し込み内容
+
+        [mwform_textarea name="content" cols="50" rows="5" placeholder="お聞きしたい事などがあればご記入ください"]
+
+        <hr />
+
+        [mwform_submitButton name="mwform_submitButton-645" confirm_value="確認画面へ" submit_value="送信する"]
+
+        </section>   
     </main>
     <br>
     <br>

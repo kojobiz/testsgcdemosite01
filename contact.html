@@ -133,7 +133,7 @@
 
 
         <!-- セクション：入力フォーム -->
-        <section class="contactform"> 
+        <!-- <section class="contactform"> 
             
             <div class="form_item2">       
                 <h2>ご用件</h2>
@@ -182,7 +182,191 @@
 
         [mwform_submitButton name="mwform_submitButton-645" confirm_value="確認画面へ" submit_value="送信する"]
 
-        </section>   
+        </section> 
+        <section class="contactform"> 
+            <table>
+                <tr>
+                    <td>
+                        <h2>ご用件</h2>
+                    </td>
+                    <td class="required-label">
+                        必須
+                    </td>
+                    <td>
+                        <div class="flex flex-row justify-center space-x-4">
+                            <label class="inline-flex items-center">
+                                <input type="radio" class="form-radio" name="radio-option" value="option1">
+                                <span class="ml-2">資料請求を希望</span>
+                            </label>
+                            <label class="inline-flex items-center">
+                                <input type="radio" class="form-radio" name="radio-option" value="option2">
+                                <span class="ml-2">無料トライアルを希望</span>
+                            </label>
+                            <label class="inline-flex items-center">
+                                <input type="radio" class="form-radio" name="radio-option" value="option3">
+                                <span class="ml-2">その他</span>
+                            </label>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <h2>会社名</h2>
+                    </td>
+                    <td class="required-label">
+                        必須
+                    </td>
+                    <td>
+                        <input type="text" class="border border-gray-300 p-2 rounded-md w-64" placeholder="例：株式会社システムサポート">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <h2>氏名</h2>
+                    </td>
+                    <td class="required-label">
+                        必須
+                    </td>
+                    <td>
+                        <input type="text" class="border border-gray-300 p-2 rounded-md w-64" placeholder="例：シス田 サポ郎">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <h2>メールアドレス</h2>
+                    </td>
+                    <td class="required-label">
+                        必須
+                    </td>
+                    <td>
+                        <input type="text" class="border border-gray-300 p-2 rounded-md w-64" placeholder="例：×××＠×××.com">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <h2>ご用件</h2>
+                    </td>
+                    <td class="required-label">
+                        必須
+                    </td>
+                    <td>
+                        <input type="text" class="border border-gray-300 p-2 rounded-md w-64" placeholder="例：03-3342-9620">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <h2>お申し込み内容</h2>
+                    </td>
+                    <td> -->
+                        <!-- 空セルを挿入 -->
+                    <!-- </td>
+                    <td>
+                        <textarea class="border border-gray-300 p-2 rounded-md w-64 h-48" placeholder="お聞きしたい事などがあればご記入ください。"></textarea>
+                    </td>
+                </tr>
+            </table>
+        </section> -->
+
+        <section class="contactform-grid flex flex-col"> 
+            
+            <h2>ご用件</h2>
+            <div class="required-label">必須</div>
+            <div class="flex-row">
+                <label class="inline-flex">
+                    <input type="radio" class="form-radio" name="radio-option" value="option1">
+                    <span class="ml-2">資料請求を希望</span>
+                </label>
+                <label class="inline-flex">
+                    <input type="radio" class="form-radio" name="radio-option" value="option2">
+                    <span class="ml-2">無料トライアルを希望</span>
+                </label>
+                <label class="inline-flex">
+                    <input type="radio" class="form-radio" name="radio-option" value="option3">
+                    <span class="ml-2">その他</span>
+                </label>
+            </div>
+            
+            <h2>会社名</h2>
+            <div class="required-label">必須</div>
+            <input type="text" class="border border-gray-300 p-2 rounded-md input-text-width" placeholder="例：株式会社システムサポート" id="company">
+            
+            <h2>氏名</h2>
+            <div class="required-label">必須</div>
+            <input type="text" class="border border-gray-300 p-2 rounded-md input-text-width" placeholder="例：シス田 サポ郎" id="name">
+            
+            <h2>メールアドレス</h2>
+            <div class="required-label">必須</div>
+            <input type="text" class="border border-gray-300 p-2 rounded-md input-text-width" placeholder="例：×××＠×××.com" id="email">
+            
+            <h2>ご用件</h2>
+            <div class="required-label">必須</div>
+            <input type="text" class="border border-gray-300 p-2 rounded-md input-text-width" placeholder="例：03-3342-9620" id="phone">
+            
+            <h2>お申し込み内容</h2>
+            <div></div> <!-- 空のセル -->
+            <textarea class="border border-gray-300 p-2 rounded-md inputarea-text-width" placeholder="お聞きしたい事などがあればご記入ください。" id="details"></textarea>
+
+
+            <div></div>
+            <div></div>
+            <button id="submitBtn" class="border border-gray-300 p-2 rounded-md">確認する</button>
+
+            <div></div>
+            <div></div>
+            <div id="result"></div>
+        </section>
+        <section class="flex flex-row gap-[20px] justify-between w-[380px]">
+            <a href="http://" target="_blank" rel="noopener noreferrer" class="about">個人情報保護方針</a>
+            <a href="http://" target="_blank" rel="noopener noreferrer" class="about">個人情報の取扱について</a>
+        </section>
+
+
+
+        <!-- <script>
+            document.getElementById('submitBtn').addEventListener('click', function() {
+                const company = document.getElementById('company').value;
+                const name = document.getElementById('name').value;
+                const email = document.getElementById('email').value;
+                const phone = document.getElementById('phone').value;
+                const details = document.getElementById('details').value;
+                const radioOption = document.querySelector('input[name="radio-option"]:checked').value;
+        
+                const result = `
+                    <h3>入力された情報</h3>
+                    <p><strong>ご用件:</strong> ${radioOption}</p>
+                    <p><strong>会社名:</strong> ${company}</p>
+                    <p><strong>氏名:</strong> ${name}</p>
+                    <p><strong>メールアドレス:</strong> ${email}</p>
+                    <p><strong>ご用件:</strong> ${phone}</p>
+                    <p><strong>お申し込み内容:</strong> ${details}</p>
+                `;
+        
+                document.getElementById('result').innerHTML = result;
+            });
+        </script> -->
+        <script>
+            document.getElementById('submitBtn').addEventListener('click', function(event) {
+                event.preventDefault();  // フォームのデフォルトの送信動作を防ぐ
+                const company = document.getElementById('company').value;
+                const name = document.getElementById('name').value;
+                const email = document.getElementById('email').value;
+                const phone = document.getElementById('phone').value;
+                const details = document.getElementById('details').value;
+                const radioOption = document.querySelector('input[name="radio-option"]:checked').value;
+        
+                const formData = {
+                    radioOption: radioOption,
+                    company: company,
+                    name: name,
+                    email: email,
+                    phone: phone,
+                    details: details
+                };
+        
+                localStorage.setItem('formData', JSON.stringify(formData));
+                window.location.href = 'confirm.html';
+            });
+        </script>
     </main>
     <br>
     <br>
