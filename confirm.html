@@ -80,9 +80,9 @@
 
 
     <!-- main -->
-    <main>
+    <main class="h-[100vh]">
         <!-- セクション：送信内容確認 -->
-        <section>
+        <section class="">
             <div class="contact_header brandcolor_bg">
                 <div>
                     <h1 class="title_03">送信内容確認</h1>
@@ -108,13 +108,13 @@
             
 
             <!-- タイトルテキスト -->
-            <p class="text_20_1.2 text-center">資料請求、無料トライアルは以下の電話番号<br>
+            <!-- <p class="text_20_1.2 text-center">資料請求、無料トライアルは以下の電話番号<br>
                 または、メールフォームよりお気軽にお申し込みください。</p>
-            <br>
+            <br> -->
 
 
             <!-- 電話でのお申し込み -->
-            <div class="callpattern">
+            <!-- <div class="callpattern">
                 <div class="callpattern_inner brandcolor_bg">
                     <p>電話でのお申し込み</p>
                 </div>
@@ -129,100 +129,57 @@
                 </div>
             </div>
             <br>
-        </section>
+        </section> -->
 
-
+        <h1 class="my-[80px] text-center">送信内容に誤りがないか、ご確認ください。</h1>
 
         <section id="result">
-            <h3>入力された情報</h3>
-            <p><strong>ご用件:</strong> <span id="radioOption"></span></p>
+            <div class="confirm-box">
+                <table>
+                    <tr>
+                        <th>ご用件</th>
+                        <td><span id="radioOption"></span></td>
+                    </tr>
+                    <tr>
+                        <th>会社名</th>
+                        <td><span id="company"></span></td>
+                    </tr>
+                    <tr>
+                        <th>氏名</th>
+                        <td><span id="name"></span></td>
+                    </tr>
+                    <tr>
+                        <th>メールアドレス</th>
+                        <td><span id="email"></span></td>
+                    </tr>
+                    <tr>
+                        <th>電話番号</th>
+                        <td><span id="phone"></span></td>
+                    </tr>
+                    <tr>
+                        <th>お申し込み内容</th>
+                        <td><span id="details"></span></td>
+                    </tr>
+                </table>
+            </div>
+            <!-- <p><strong>ご用件:</strong> <span id="radioOption"></span></p>
             <p><strong>会社名:</strong> <span id="company"></span></p>
             <p><strong>氏名:</strong> <span id="name"></span></p>
             <p><strong>メールアドレス:</strong> <span id="email"></span></p>
             <p><strong>ご用件:</strong> <span id="phone"></span></p>
-            <p><strong>お申し込み内容:</strong> <span id="details"></span></p>
+            <p><strong>お申し込み内容:</strong> <span id="details"></span></p> -->
         </section>
         
-        <!-- <script>
-            document.addEventListener('DOMContentLoaded', function() {
-                const formData = JSON.parse(localStorage.getItem('formData'));
-                
-                if (formData) {
-                    document.getElementById('radioOption').textContent = formData.radioOption;
-                    document.getElementById('company').textContent = formData.company;
-                    document.getElementById('name').textContent = formData.name;
-                    document.getElementById('email').textContent = formData.email;
-                    document.getElementById('phone').textContent = formData.phone;
-                    document.getElementById('details').textContent = formData.details;
-                } else {
-                    document.getElementById('result').textContent = 'フォームデータが見つかりませんでした。';
-                }
-            });
-        </script>   -->
-        <section id="result">
-            <h3>入力された情報</h3>
-            <p><strong>ご用件:</strong> <span id="radioOption"></span></p>
-            <p><strong>会社名:</strong> <span id="company"></span></p>
-            <p><strong>氏名:</strong> <span id="name"></span></p>
-            <p><strong>メールアドレス:</strong> <span id="email"></span></p>
-            <p><strong>ご用件:</strong> <span id="phone"></span></p>
-            <p><strong>お申し込み内容:</strong> <span id="details"></span></p>
-        </section>
+       <section class="btn-choice mt-[80px]" >
+            <button type="button" id="to-back"><img src="./image/btn_choice_back.png" alt="" class="w-[200px] h-[auto]"></button>
+            <button type="button" id="sousin"><a href="./completion.html"><img src="./image/btn_choice_sent.png" alt="" class="w-[200px] h-[auto]"></a></button>
+       </section>
         
-        <script>
-            document.addEventListener('DOMContentLoaded', function() {
-                const formData = JSON.parse(localStorage.getItem('formData'));
-                
-                if (formData) {
-                    document.getElementById('radioOption').textContent = formData.radioOption;
-                    document.getElementById('company').textContent = formData.company;
-                    document.getElementById('name').textContent = formData.name;
-                    document.getElementById('email').textContent = formData.email;
-                    document.getElementById('phone').textContent = formData.phone;
-                    document.getElementById('details').textContent = formData.details;
-                } else {
-                    document.getElementById('result').textContent = 'フォームデータが見つかりませんでした。';
-                }
-            });
-        </script>
-        <button type="button" class="rounded-full bg-pink-300" id="soushin"><a href="./completion.html">送信する</a></button>
     </main>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-
-
+    
     <!-- footer -->
     <footer>
-        <div class="bg-[#F2F2F2] w-[100%] pb-[30px] px-[15%] tracking-wider text-[#30554C]">
-            <h1 class="text-2xl pb-4 tracking-tight font-semibold">株式会社システムサポート</h1>
-            <table>
-                <tr>
-                  <td>上場証券取引所</td>
-                  <td>：東京証券取引所 プライム市場</td>
-                </tr>
-                <tr>
-                  <td>創業</td>
-                  <td>：1980年1月</td>
-                </tr>
-                <tr>
-                  <td>資本金</td>
-                  <td>：7億23百万円</td>
-                </tr>
-                <tr>
-                  <td>本社所在地</td>
-                  <td>：〒920-0853 石川県金沢市本町1-5-2 リファーレ9F</td>
-                </tr>
-              </table>
-        </div>
-        <p class="bg-[#30554c] h-[113px] pb-[60px] text-white text-center content-center">
+        <p class="bg-[#30554c] h-[53px] text-white text-center content-center">
             &copy;System Support Inc.
         </p>
     </footer>

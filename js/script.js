@@ -37,9 +37,8 @@ document.addEventListener('DOMContentLoaded', function() {
 window.addEventListener('scroll', function() {
     var footerNavs = document.querySelectorAll('.footer-nav a');
     var scrollPosition = window.scrollY;
-    var screenWidth = window.innerWidth; // デバイスの幅を取得
+    var screenWidth = window.innerWidth; 
 
-    // スクロールが800px以上の場合、footer-navを表示する
     if (scrollPosition >= 800) {
         footerNavs.forEach(function(nav) {
             nav.style.display = 'block';
@@ -50,7 +49,6 @@ window.addEventListener('scroll', function() {
         });
     }
 
-    // デバイスの幅が768以上の場合、footer-navを非表示にする
     if (screenWidth >= 768) {
         footerNavs.forEach(function(nav) {
             nav.style.display = 'none';
@@ -58,7 +56,7 @@ window.addEventListener('scroll', function() {
     }
 });
 
-// 入力情報を別ページに表示させる
+// 入力情報の送信
 document.getElementById('submitBtn').addEventListener('click', function(event) {
     event.preventDefault();  // フォームのデフォルトの送信動作を防ぐ
     const company = document.getElementById('company').value;
@@ -80,6 +78,23 @@ document.getElementById('submitBtn').addEventListener('click', function(event) {
     localStorage.setItem('formData', JSON.stringify(formData));
     window.location.href = 'confirm.html';
 });
+
+// データ取得後表示、エラーケース
+document.addEventListener('DOMContentLoaded', function() {
+    const formData = JSON.parse(localStorage.getItem('formData'));
+    
+    if (formData) {
+        document.getElementById('radioOption').textContent = formData.radioOption;
+        document.getElementById('company').textContent = formData.company;
+        document.getElementById('name').textContent = formData.name;
+        document.getElementById('email').textContent = formData.email;
+        document.getElementById('phone').textContent = formData.phone;
+        document.getElementById('details').textContent = formData.details;
+    } else {
+        document.getElementById('result').textContent = 'フォームデータが見つかりませんでした。';
+    }
+});
+
 
 // チェックボックスtrueでボタン押下可能
 function toggleSubmitButton(checkbox) {

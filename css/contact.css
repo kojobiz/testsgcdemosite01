@@ -176,8 +176,38 @@ section.contactform-grid {
 #submitBtn:hover.active {
     background-color: #2fc996;
 }
+.confirm-box {
+    display:flex;
+    flex-direction:row; 
+    margin-left:10%;
+    margin-right:10%;
+}
+.btn-choice {
+    display:flex;
+    flex-direction:row;
+    flex-wrap:nowrap;
+    align-content:center;
+    justify-content:space-evenly;
+    align-items:center;
+}
 
-
+/* confirm　css */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td {
+    border: 1px solid #bdbdbd;
+    text-align: left;
+    padding: 8px;
+}
+th {
+    background-color: #D6f6ec;
+    width: 50%;
+}
+td {
+    width: 50%;
+}
 
 
 
