@@ -716,18 +716,19 @@ p[class*="color6"] {
 ================================= */
 .video-container {
   position: relative;
-  display: inline-block;
+  /* display: inline-block; */
 }
 .video-container video {
   position: absolute;
-  top: 0;
-  left: 0;
-  padding-left: 92px;
-  margin-top: -10px;
+  top: 50%;
+  left: 50%;
+  transform:translate(-50%, -50%);
+  /* padding-left: 92px;
+  margin-top: -10px; */
 }
 .video_pc {
-  width: 742px;
-  height: 368px;
+  /* width: 742px;
+  height: 368px; */
 }
 .video {
   width: 552px;
@@ -844,7 +845,7 @@ p[class*="color6"] {
   }
   /* mp4 */
   .video_pc {
-    width: 80%;
+    /* width: 80%; */
     height: auto;
   }
   .video {
