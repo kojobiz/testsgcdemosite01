@@ -722,17 +722,20 @@ p[class*="color6"] {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform:translate(-50%, -50%);
-  /* padding-left: 92px;
-  margin-top: -10px; */
+  /* 本来なら-50％ー50％だが、動画の縦が小さいため上部を上げて違和感のない-55%まで引き上げた */
+  /* transform:translate(-50%, -50%); */
+  transform:translate(-50%, -55%);
 }
 .video_pc {
   /* width: 742px;
   height: 368px; */
 }
 .video {
-  width: 552px;
-  height: 353px;
+  /* width: 552px;
+  height: 353px; */
+  width:80%;
+  /* -0.25％に関しては動画が左右対称処理でなかったので微調整した */
+  margin-left:-0.25%
 }
 
 /* 最大768で */
@@ -849,7 +852,7 @@ p[class*="color6"] {
     height: auto;
   }
   .video {
-    width: 60%;
+    /* width: 60%; */
     height: auto;
   }
 }
