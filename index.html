@@ -207,7 +207,17 @@
                     </div>
                 </li>
                 <li class="fivefunction-container grid-reverse">
-                    <div class="container-wide item1"><div class="video-container">
+                    <p class="bg-pink-300">修正実装<br>
+                    ・パソコンの画面内を黒色にして動画サイズと合わない余白部分の違和感をなくす<br>
+                    ・奥に配置されるデザインデータを左右対称にデザイン処理きっちりする<br>
+                    ・1:奥の左上点と手前の左上点を合わせるrealtive_top0%,left0%<br>
+                      2:奥の中央点に手前の左上点を合わせるabsolute_top50%,left50%<br>
+                      3:手前の左上点に手前の中央点が来るように合わせる_transform:translate(-50%,-50%)
+                      この時の先の-50％はx軸、後の-50％はy軸<br>
+                    
+                </p>
+                    
+                    <div class="container-wide item1 bg-pink-400 py-10"><div class="video-container">
                         <img src="./image/img_notepc.png" alt="" class="video_pc">
                      
                         <video width="552" height="353" controls autoplay loop muted poster="./image/v_scenario_poster.png" class="video">
