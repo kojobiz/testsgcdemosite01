@@ -749,9 +749,8 @@ p[class*="color6"] {
 /* 最大768で */
 @media (max-width: 768px) {
   .sectionHero {
-    background-image: url("../image/bgimg_hero_mo.jpg");
+    background-image: url("../image/bgimg_hero_mo1.jpg");
     width: 100%;
-    height: 1430px;
     background-size: cover;
     background-position: center bottom;
   }
