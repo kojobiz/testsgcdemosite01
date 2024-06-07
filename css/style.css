@@ -410,6 +410,11 @@ body {
   margin-left: 5rem;
   margin-right: 5rem;
 }
+.example-box li {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
 /*================================= 
   attention
 ================================= */
