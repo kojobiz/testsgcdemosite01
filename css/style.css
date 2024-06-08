@@ -715,6 +715,35 @@ p[class*="color6"] {
 }
 
 /*================================= 
+  footer
+================================= */
+.footer-container {
+  background-color: #f2f2f2;
+  width:100%;
+  padding-bottom: 30px;
+  padding-left: 15%;
+  padding-right: 15%;
+  letter-spacing: 0.05em;
+  color: #30554c;
+}
+.footer-container h1 {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  padding-bottom: 1rem;
+  letter-spacing: -0.025em;
+  font-weight: 600;
+}
+.copy {
+  background-color: #30554c;
+  height: 113px;
+  padding-bottom: 60px;
+  color: white;
+  text-align: center;
+  align-content: center;
+}
+
+
+/*================================= 
   @media
 ================================= */
 /* 最小768で */
